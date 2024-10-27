@@ -1,5 +1,7 @@
 // import "./style.css";
 
+// import "./style.css";
+
 const sketchBoard = document.querySelector(".etch-area");
 
 function makeGrid(gridArea) {
@@ -13,10 +15,6 @@ function makeGrid(gridArea) {
     });
   }
 }
-
-// const cell = document.querySelector("grid-box");
-
-// cell.addEventListener("click", console.log("clicked"));
 
 makeGrid(256);
 
