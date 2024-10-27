@@ -1,6 +1,7 @@
 // import "./style.css";
 
 const sketchBoard = document.querySelector(".etch-area");
+const gridColor = "green";
 
 // Function to create the grid elements only
 function makeGrid(gridArea) {
@@ -10,14 +11,14 @@ function makeGrid(gridArea) {
     sketchBoard.appendChild(gridBox);
 
     // Apply hover effect
-    applyHoverEffect(gridBox);
+    applyHoverEffect(gridBox, gridColor);
   }
 }
 
 // Function to apply hover effect on each grid box
-function applyHoverEffect(element) {
+function applyHoverEffect(element, color) {
   element.addEventListener("mouseover", () => {
-    element.style.backgroundColor = "black";
+    element.style.backgroundColor = color;
   });
 }
 
