@@ -1,0 +1,24 @@
+{
+  "name": "odin_etch-a-sketch",
+  "version": "1.0.0",
+  "description": "A pretty neat toy to flex myDOM manipulation skills. I'm going to build a browser version of something between a sketchpad and an Etch-A-Sketch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "webkit": "^0.0.0",
+    "webkit-cli": "^2.0.2",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0"
+  }
+}
